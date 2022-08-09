@@ -391,11 +391,12 @@ a.fmenu:hover {
     .toggle-btn {
         display: block;
     }
-
-    .all-nav {
+    
+    .links {
         display: none;
 
     }
+    
 
     .heading-text h3 {
         font-size: 40px;
@@ -406,7 +407,7 @@ a.fmenu:hover {
     }
 
     .news {
-        margin-top: 18.37rem;
+        margin-top: 15.37rem;
     }
 
     .container-2 {
@@ -444,6 +445,10 @@ a.fmenu:hover {
 
         margin-left: -23px;
     }
+    .gal-content-2 img {
+        max-width: 247px;
+
+    }
 
     .left {
         margin-left: -33px;
@@ -455,10 +460,11 @@ a.fmenu:hover {
         display: block;
     }
 
-    .all-nav {
+    .links {
         display: none;
 
     }
+    
 
     /* links.show {
             display: block;
@@ -499,7 +505,7 @@ a.fmenu:hover {
     }
 
     .news {
-        margin: 3.37rem 0 0 -0.63rem;
+        margin: 6.37rem 0 0 -0.63rem;
     }
 
     .wrapper {
