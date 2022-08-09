@@ -34,7 +34,26 @@ $('.slider').slick({
  
   ]
 });
+const nav = document.querySelector(".all-nav");
+let navTop = nav.offsetTop;
+console.log(navTop)
+function fixedNav() {
+  if (window.scrollY >= navTop) {
+    nav.classList.add("fixed");
+  } else {
+    nav.classList.remove("fixed");
+  }
+}
 
+window.addEventListener("scroll", fixedNav);
 
+function myFunction() {
+  var x = document.getElementById("links");
+  if (x.className === "links") {
+    x.className += " responsive";
+  } else {
+    x.className = "links";
+  }
+}
 
 

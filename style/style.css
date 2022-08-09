@@ -16,6 +16,10 @@ body {
 
 
 }
+/* .all-nav{
+    position:fix;
+  
+} */
 
 .icon {
     padding-right: 3rem;
@@ -31,13 +35,28 @@ body {
 
 
 }
-
+.all-nav.fixed {
+    width: 81rem;
+    position: fixed;
+    top :0;
+    margin: 0;
+    box-shadow:0 0 19px 0 #C4C4C4;
+   background-color: white;
+   z-index: 3;
+  }
+.all-nav.fixed ul li img {
+    height: 36px;
+  }
+  .all-nav.fixed ul li a {
+    font-size: 14px;
+  }
 .all-post {
 
     margin-top: 3rem;
 }
 
 .links {
+    margin: -34px 0 22px 76px;
     padding: 0.3rem 0 1.2rem 31rem;
 
 
@@ -132,70 +151,37 @@ a.menu:hover {
     color: var(--blue);
     font-family: Arial;
 }
-
 .wrapper {
-    margin-top: -5.625rem;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-
-
+    display: flex;
+    text-align: center;  
 }
-
 .card-1 {
-
-    grid-column: 2;
-    grid-row: 4;
     border: 1px solid #FFFFFF;
-    text-align: center;
-
-    margin-top: -12.5rem;
-    height: 37.5rem;
-}
-
-.date {
-    text-align: left;
-    padding: 0.93rem 0.93rem;
-    color: #74788A;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    font-size: 0.875rem;
-    line-height: 0.875rem;
-}
-
-.carding {
-    padding: 1.56rem;
+    margin-top: 63px;
+    padding: 20px 0;
 }
 
 .card-2 {
-    grid-column: 3;
-    grid-row: 3;
     border: 1px solid #FFFFFF;
-    text-align: center;
+    width: 575px;
+    padding: 14px 20px
+}
+.card-3{
+    border: 1px solid #FFFFFF;
+    margin-top: -1px;
+    margin-left: 30px;
+    padding: 20px 6px;
+}
+.card-4{
+    margin: -429px 0 -96px 315px;
+    border: 1px solid #FFFFFF;
+    padding: 20px ;
+    height: 429px;
+}
+.sec-col {
+    margin-left: -45px;
 }
 
-.card-3 {
-    grid-column: 3;
-    grid-row: 4;
-    border: 1px solid #FFFFFF;
-    text-align: center;
-
-    width: 18.75rem;
-    height: 30.125rem;
-
-
-}
-
-.card-4 {
-    grid-column: 3;
-    grid-row: 4;
-    width: 18.75rem;
-
-    border: 1px solid #FFFFFF;
-    text-align: center;
-    margin-left: 18.68rem;
-    height: 30.125rem;
-
-}
 
 .btn-gray {
     color: #3C3C3C;
@@ -486,36 +472,22 @@ a.fmenu:hover {
 
     }
 
-    .card-2 {
-        display: none;
-
-    }
-
-    .card-3 {
-        display: none;
-
-    }
-
-    .card-4 {
-        display: none;
-
-    }
+  
 
     .card-1 {
-        margin-left: -188px;
+        margin:  0  0 0 -188px;
         height: 338px;
-
-        margin-top: 154px;
         margin-bottom: 64px;
     }
 
     .carding {
         width: 100%;
-    }
+    } 
+    
 
 
     .img1 {
-        margin: 3rem 0 0 1rem;
+        margin: 6rem 0 0 1rem;
     }
 
     .heading-text h3 {
@@ -531,17 +503,20 @@ a.fmenu:hover {
     }
 
     .wrapper {
-        margin-top: -10.625rem;
+        margin-top: -0.625rem;
+        margin-left: 206px;
     }
-
+    
+.sec-col {
+    display: none;
+}
     .gal-content-3 {
         display: none;
     }
 
     .btn-gray {
-        margin-left: 11px;
+         margin-left: 32px;  
     }
-
     .container-2 {
         margin: 10px 0 0 0;
     }
@@ -632,9 +607,14 @@ a.fmenu:hover {
     }
 
     .gallery-container {
-        margin-right: -13px;
+        margin-right: 0px;
         margin-left: 0;
     }
+  
+   .gal-content-2 img {
+    max-width: 55px;
+    height: 189px;
+   }
 
     .gal-text {
 
